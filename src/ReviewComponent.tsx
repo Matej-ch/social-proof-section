@@ -5,8 +5,8 @@ function ReviewComponent({avatar, name, review}: { avatar: string, name: string,
         <header>
             <img src={avatar} alt=""/>
             <div>
-                <h5>{name}</h5>
-                <h6>Verified Buyer</h6>
+                <h3>{name}</h3>
+                <h4>Verified Buyer</h4>
             </div>
         </header>
 
