@@ -1,0 +1,31 @@
+.review-component {
+  background-color: var(--clr-primary);
+  border-radius: var(--br-base);
+  color: var(--clr-neutral-text);
+  padding: 2rem;
+  font-size: 1rem;
+
+
+  header {
+    display: flex;
+    padding-bottom: 1.5rem;
+    gap: 1.5rem;
+
+    h5 {
+      color: var(--clr-neutral-text);
+      font-size: 1rem;
+      font-weight: var(--fw-medium);
+    }
+
+    h6 {
+      color: var(--clr-secondary);
+      font-size: 1rem;
+      font-weight: var(--fw-medium);
+    }
+  }
+
+  img {
+    border-radius: 100%;
+    max-width: 50px;
+  }
+}
