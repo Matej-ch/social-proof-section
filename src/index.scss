@@ -1,0 +1,63 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --ff-base: 'League Spartan', sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-base: 15px;
+
+  --clr-primary: hsl(300, 43%, 22%);
+  --clr-secondary: hsl(333, 80%, 67%);
+
+  --clr-rating-background: hsl(303, 10%, 53%);
+  --clr-neutral-text: hsl(300, 24%, 96%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-base);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--clr-white);
+  width: 100%;
+  display: grid;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+  width: 100%;
+}
