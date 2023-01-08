@@ -13,9 +13,13 @@ function App() {
     const quote3 = ' Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommended them to everyone! ';
     return (
         <main className="App">
-            <h1>10,000+ of our users love our products</h1>
-            <p>We only provide great products combined with excellent customer service. See what our satisfied customers
-                are saying about our services.</p>
+            <div className={'header-wrapper'}>
+                <h1>10,000+ of our users love our products</h1>
+                <p>We only provide great products combined with excellent customer service. See what our satisfied
+                    customers
+                    are saying about our services.</p>
+            </div>
+
 
             <div className={'rating-component-container'}>
                 <RatingComponent starCount={5} text={'Rated 5 Stars in Reviews'}/>

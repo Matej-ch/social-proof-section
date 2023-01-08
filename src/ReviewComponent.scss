@@ -29,3 +29,20 @@
     max-width: 50px;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .review-component {
+
+    &:first-child {
+      align-self: start;
+    }
+
+    &:nth-child(2) {
+      align-self: center;
+    }
+
+    &:last-child {
+      align-self: end;
+    }
+  }
+}

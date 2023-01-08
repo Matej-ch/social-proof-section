@@ -1,5 +1,4 @@
 .rating-component {
-
   background-color: var(--clr-neutral-text);
   border-radius: var(--br-base);
   padding: 1rem;
@@ -16,5 +15,37 @@
 
   h2 {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .rating-component {
+
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .rating-component {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 35rem;
+    padding: 1rem 2rem 1rem 2rem;
+
+    .stars-container {
+      padding-bottom: 0;
+    }
+
+    &:first-child {
+      justify-self: start;
+    }
+
+    &:nth-child(2) {
+      justify-self: center;
+    }
+
+    &:last-child {
+      justify-self: end;
+    }
   }
 }
